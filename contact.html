@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Global Flavors Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact-page">
+    <!-- Header/Navbar -->
+    <header>
+        <div><img src="images/logo-01.png" alt="logo"></div>
+        <nav>
+            <div class="toggle-menu" id="toggle-menu">
+                &#9776; <!-- Hamburger icon for mobile -->
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Home</a>
+                <!-- Dropdown Menu as a Link -->
+                <div class="dropdown">
+                    <a href="#" class="menu-link">Menu</a>
+                    <div class="dropdown-content">
+                        <a href="pakistani.html">Pakistani Cuisine</a>
+                        <a href="chinese.html">Chinese Cuisine</a>
+                        <a href="italian.html">Italian Cuisine</a>
+                        <a href="mexican.html">Mexican Cuisine</a>
+                        <a href="thai.html">Thai Cuisine</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </nav>
+    </header>
+    
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Fill out the form below or reach out to us directly through our contact details.</p>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form class="contact-form" action="submit_form.html" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>Address:</strong> 123 Foodie Lane, Flavor Town, FL 12345</p>
+                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                <p><strong>Email:</strong> contact@globalflavors.com</p>
+                <p>Follow us on:
+                    <a href="#">Facebook</a> |
+                    <a href="#">Instagram</a> |
+                    <a href="#">Twitter</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 World Plate Restaurant | Follow us on:
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
